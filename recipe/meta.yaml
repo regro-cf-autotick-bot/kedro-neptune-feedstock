@@ -1,5 +1,5 @@
 {% set name = "kedro-neptune" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/neptune-ai/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: c5d4eb756c090150b66e2baf394612c866c0853df71cb0f1a71d6930644c83a8
+  sha256: a7d928f052c3691016a155f573b1f1fbd34fa14d917f0d2fab0b3e8f4ef734e0
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,7 +37,7 @@ about:
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
-  summary: 'Neptune Client integration with Kedro'
+  summary: Neptune Client integration with Kedro
   doc_url: https://docs.neptune.ai/integrations-and-supported-tools/
   dev_url: https://github.com/neptune-ai/kedro-neptune
 
