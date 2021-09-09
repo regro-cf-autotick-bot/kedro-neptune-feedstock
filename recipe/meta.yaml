@@ -24,6 +24,7 @@ requirements:
     - kedro >=0.17.0
     - ruamel.yaml ==0.17.10
     - click >=7.0.0
+    - psutil >=5.8.0
 
 test:
   imports:
