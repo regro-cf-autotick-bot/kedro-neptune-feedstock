@@ -1,5 +1,5 @@
 {% set name = "kedro-neptune" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 8550a5e8b185ae15794f7c4c3d3967384fed51edb57b553f6e412843736a4a75
+  sha256: 2a5f362a677ddedce6c8ef9d0e95843f19752805768e28033c88757c185bf685
 
 build:
   noarch: python
