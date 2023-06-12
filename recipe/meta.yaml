@@ -1,6 +1,6 @@
 {% set name = "kedro-neptune" %}
 {% set package_name = "kedro_neptune" %}
-{% set version = "0.1.4" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: aad532514f3f4495b03d4d0ff184fcc074dbccb50ce25d744876193432a04946
+  sha256: c3ee0db42d8fa9a09c3bfd9d210fc8e623780cb8bcfe12491505dfef4b9ece1b
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
