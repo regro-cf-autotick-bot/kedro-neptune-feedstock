@@ -1,11 +1,11 @@
-About kedro-neptune
-===================
+About kedro-neptune-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kedro-neptune-feedstock/blob/main/LICENSE.txt)
 
 Home: https://neptune.ai/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kedro-neptune-feedstock/blob/main/LICENSE.txt)
 
 Summary: Neptune Client integration with Kedro
 
